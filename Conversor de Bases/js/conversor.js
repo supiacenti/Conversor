@@ -34,7 +34,7 @@ $("#oct").click(function(){
 $("#hex").click(function(){
     $("#bina").hide();
     $("#octa").hide();
-    $("#hexa").show();
+    $("#hexa").show(); 
     $("#deci").hide();
 })
 
