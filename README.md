@@ -1,9 +1,13 @@
 # Conversor de Bases
-### Binário → Decimal ✔
-### Decimal → Binário ✔
-### Binário → Octal ⟳
-### Octal → Binário ⟳
-### Octal → Decimal ⟳
-### Decimal → Hexadecimal ⟳
-### Hexadecimal → Binário ⟳
-### Binário → Hexadecimal ⟳
+## Binário → Decimal ✔
+## Binário → Octal ⟳
+## Binário → Hexadecimal ⟳
+## Decimal → Binário ✔
+## Decimal → Hexadecimal ⟳
+## Decimal → Octal ⟳
+## Octal → Binário ⟳
+## Octal → Decimal ⟳
+## Octal → Hexadecimal ⟳
+## Hexadecimal → Binário ⟳
+## Hexadecimal → Decimal ⟳
+## Hexadecimal → Octal ⟳
