@@ -7,7 +7,7 @@ html{
     height: 250px;
     border-radius: 20px;
     margin-bottom: 5px;
-    background-color: #F2C7BD;
+    background-color: #eec2b9;
 }
 #box1{
     margin-top: -15px;
@@ -17,7 +17,7 @@ header{
     font-size: 30pt;
     text-align: center;
     margin-top: 10px;
-    color: #FFFF;
+    color: #eec2b9;
 }
 p{
     text-align: center;
@@ -46,7 +46,7 @@ button{
     height: auto;
     font-size: 15pt;
     background-color: #6C778C;
-    color: #FFFF;
+    color: #ffff;
     border: 0;
     padding: 5px;
     cursor: pointer;
@@ -75,13 +75,13 @@ img{
     color: #0D4C73;
 }
 .a{
-    background-color: #F2C7BD;
+    background-color: #eec2b9;
     width: 68px;
     height: auto;
     margin-top: 65px;
 }
 .a:hover{
-    background-color: #F2C7BD;
+    background-color: #eec2b9;
 }
 .menu{
     width: 100px;
