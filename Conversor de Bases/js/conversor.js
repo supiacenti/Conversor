@@ -23,6 +23,22 @@ document.querySelector("#bd").addEventListener("click", function(){
     
     r.innerHTML = '<p class="r">' + value + ' para decimal é igual a: <b>' + dec + '</b></p>';
 });
+document.querySelector("#bo").addEventListener("click", function(){
+    const value = vb.value;
+    let d = 0;
+    d = parseInt(value, 2);
+    var oc = d.toString(8);
+    
+    r.innerHTML = '<p class="r">' + value + ' para octal é igual a: <b>' + oc + '</b></p>';
+});
+document.querySelector("#bh").addEventListener("click", function(){
+    const value = vb.value;
+    let d = 0;
+    d = parseInt(value, 2);
+    var he = d.toString(16);
+    
+    r.innerHTML = '<p class="r">' + value + ' para hexadecimal é igual a: <b>' + he + '</b></p>';
+});
 
 $("#oct").click(function(){
     $("#bina").hide();
@@ -34,7 +50,7 @@ $("#oct").click(function(){
 $("#hex").click(function(){
     $("#bina").hide();
     $("#octa").hide();
-    $("#hexa").show(); 
+    $("#hexa").show();
     $("#deci").hide();
 })
 
