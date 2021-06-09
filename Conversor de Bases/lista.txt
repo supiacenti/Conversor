@@ -1,0 +1,21 @@
+✔ interface
+
+✔ troca de páginas
+
+✔ css completo
+
+✔ binario > decimal
+- binario > octal
+- binario > hexadecimal
+
+✔ decimal > binario
+- decimal > octal
+- decimal > hexadecimal
+
+- octal > binario
+- octal > decimal
+- octal > hexadecimal
+
+- hexadecimal > binario
+- hexadecimal > decimal
+- hexadecimal > octal

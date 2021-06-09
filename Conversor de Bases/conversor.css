@@ -1,18 +1,22 @@
 html{
     background-color: #0C3C59;
 }
-div{
+#box1, #box2{
     margin: auto;
     width: 500px;
-    height: 200px;
+    height: 250px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color: #F2C7BD;
+}
+#box1{
+    margin-top: -15px;
+    border-top-left-radius: 0;
 }
 header{
     font-size: 30pt;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #FFFF;
 }
 p{
@@ -46,6 +50,7 @@ button{
     border: 0;
     padding: 5px;
     cursor: pointer;
+    border-radius: 4px;
 }
 button:hover{
     background-color: #787e8a;
@@ -60,6 +65,7 @@ img{
     width: 400px;
     height: 20px;
     font-size: 15pt;
+    margin: auto;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -72,8 +78,23 @@ img{
     background-color: #F2C7BD;
     width: 68px;
     height: auto;
-    margin-top: 15px;
+    margin-top: 65px;
 }
 .a:hover{
     background-color: #F2C7BD;
+}
+.menu{
+    width: 100px;
+    display: inline;
+    font-size: 12pt;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -10px;
+}
+.caixa{
+    width: 500px;
+    margin: auto;
+    height: auto;
 }

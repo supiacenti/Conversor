@@ -11,19 +11,50 @@
     <header>
         Conversor
     </header>
-    <div id="box1">
-        <p class="t"><b>Insira o valor:</b></p>
-        <input id="valor">
-        <button id="db">Decimal → Binário</button>
-        <button id="bd">Binário → Decimal</button>
+    <div class="caixa">
+        <button type="button" id="bin" class="menu">Binário</button>
+        <button type="button" id="oct" class="menu">Octal</button>
+        <button type="button" id="hex" class="menu">Hexadecimal</button>
+        <button type="button" id="dec" class="menu">Decimal</button>
+        <div id="box1">        
+            <div id="bina">
+                <p class="t"><b>Insira o valor binário:</b></p>
+                <input id="valorb">
+                <button id="bd">Binário → Decimal</button>
+                <button id="bo">Binário → Octal</button>
+                <button id="bh">Binário → Hexadecimal</button>
+            </div>
+            <div id="octa">
+                <p class="t"><b>Insira o valor octal:</b></p>
+                <input id="valoro">
+                <button id="ob">Octal → Binário</button>
+                <button id="od">Octal → Decimal</button>
+                <button id="oh">Octal → Hexadecimal</button>
+            </div>
+            <div id="hexa">
+                <p class="t"><b>Insira o valor hexadecimal:</b></p>
+                <input id="valorh">
+                <button id="hb">Hexadecimal → Binário</button>
+                <button id="hd">Hexadecimal → Decimal</button>
+                <button id="ho">Hexadecimal → Octal</button>
+            </div>
+            <div id="deci">
+                <p class="t"><b>Insira o valor decimal:</b></p>
+                <input id="valord">
+                <button id="db">Decimal → Binário</button>
+                <button id="dh">Decimal → Hexadecimal</button>
+                <button id="do">Decimal → Octal</button>
+            </div>
+        </div>
+        <div id="box2">
+            <p class="t2"><b>Resultado:</b></p>
+            <div class="res" id="resposta"></div>
+            <button class="a" id="again">
+                <img src="imagens/again.png">
+            </button>
+        </div>
     </div>
-    <div id="box2">
-        <p class="t2"><b>Resultado:</b></p>
-        <div class="res" id="resposta"></div>
-        <button class="a" id="again">
-            <img src="imagens/again.png">
-        </button>
-    </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/conversor.js"></script>
 </body>
 </html>
