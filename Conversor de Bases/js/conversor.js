@@ -2,6 +2,8 @@ const vb = document.getElementById("valorb");
 const vo = document.getElementById("valoro");
 const vh = document.getElementById("valorh");
 const vd = document.getElementById("valord");
+var b = document.getElementById("bin");
+b.style.backgroundColor = "#022859";
 var r = document.getElementById("resposta");
 
 $("#bina").show();
@@ -51,6 +53,16 @@ document.querySelector("#db").addEventListener("click", function(){
 });
 
 document.querySelector("#again").addEventListener("click", function(){
-    valor.value = "";
+    vb.value = "";
+    vo.value = "";
+    vh.value = "";
+    vd.value = "";
     r.innerHTML = '<p class="r"></p>';
 });
+
+function mudaCor(a, b, c, d){
+    a.style.backgroundColor = "#022859";
+    b.style.backgroundColor = "#6C778C";
+    c.style.backgroundColor = "#6C778C";
+    d.style.backgroundColor = "#6C778C";
+}

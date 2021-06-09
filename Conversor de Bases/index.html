@@ -12,10 +12,10 @@
         Conversor
     </header>
     <div class="caixa">
-        <button type="button" id="bin" class="menu">Binário</button>
-        <button type="button" id="oct" class="menu">Octal</button>
-        <button type="button" id="hex" class="menu">Hexadecimal</button>
-        <button type="button" id="dec" class="menu">Decimal</button>
+        <button type="button" id="bin" class="menu" onclick="mudaCor(bin, oct, hex, dec)">Binário</button>
+        <button type="button" id="oct" class="menu" onclick="mudaCor(oct, bin, hex, dec)">Octal</button>
+        <button type="button" id="hex" class="menu" onclick="mudaCor(hex, bin, oct, dec)">Hexadecimal</button>
+        <button type="button" id="dec" class="menu" onclick="mudaCor(dec, bin, oct, hex)">Decimal</button>
         <div id="box1">        
             <div id="bina">
                 <p class="t"><b>Insira o valor binário:</b></p>

@@ -4,6 +4,8 @@
 
 ✔ css completo
 
+✔ botões do menu
+
 ✔ binario > decimal
 - binario > octal
 - binario > hexadecimal
