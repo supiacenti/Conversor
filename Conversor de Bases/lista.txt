@@ -7,8 +7,8 @@
 ✔ botões do menu
 
 ✔ binario > decimal
-- binario > octal
-- binario > hexadecimal
+✔ binario > octal
+✔ binario > hexadecimal
 
 ✔ decimal > binario
 - decimal > octal
