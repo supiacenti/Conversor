@@ -1,7 +1,7 @@
 # Conversor de Bases
 ## Binário → Decimal ✔
-## Binário → Octal ⟳
-## Binário → Hexadecimal ⟳
+## Binário → Octal ✔
+## Binário → Hexadecimal ✔
 ## Decimal → Binário ✔
 ## Decimal → Hexadecimal ⟳
 ## Decimal → Octal ⟳
