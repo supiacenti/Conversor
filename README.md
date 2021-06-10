@@ -1,6 +1,6 @@
 # Conversor de Bases
 ## Binário → Decimal ✔
-## Binário → Octal ⟳
+## Binário → Octal ✔
 ## Binário → Hexadecimal ⟳
 ## Decimal → Binário ✔
 ## Decimal → Hexadecimal ⟳
